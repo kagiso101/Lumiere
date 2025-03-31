@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/007/622/514/small_2x/abstract-template-3d-elegant-golden-wave-shape-with-shiny-gold-line-sparkling-lighting-on-cream-background-luxury-style-vector.jpg') no-repeat center center/cover;
+    color: #4A2C2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    max-width: 500px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.headline {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0;
+}
+
+.subtext {
+    font-size: 1rem;
+    color: #6D4C3D;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #4A2C2A;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #F3E2D0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
